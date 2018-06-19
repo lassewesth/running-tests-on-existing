@@ -13,12 +13,12 @@ public class TerribleTest {
 
         System.out.println("***");
         System.out.println("***");
-        System.out.println("java version is " + fjavaVersion);
+        System.out.println("java version is " + javaVersion);
         System.out.println("***");
         System.out.println("***");
 
-        assumeThat("java version is " + javaVersion, javaVersion, startsWith("1.10"));
+        assumeThat("java version is " + javaVersion, javaVersion, startsWith("1.8"));
 
-        fail("fails on java 10");
+        fail("fails on java 8");
     }
 }
