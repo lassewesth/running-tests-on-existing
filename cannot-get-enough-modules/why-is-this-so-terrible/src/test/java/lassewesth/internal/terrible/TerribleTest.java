@@ -3,7 +3,7 @@ package lassewesth.internal.terrible;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.startsWith;
-import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertNotNull;
 
 public class TerribleTest {
     @Test
@@ -18,6 +18,6 @@ public class TerribleTest {
 
         org.junit.Assume.assumeThat("java version is " + javaVersion, javaVersion, startsWith("1.8"));
 
-        assertNull(new Accident());
+        assertNotNull(new Accident());
     }
 }
