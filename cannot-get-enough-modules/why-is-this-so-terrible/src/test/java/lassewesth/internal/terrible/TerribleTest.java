@@ -16,7 +16,7 @@ public class TerribleTest {
         System.out.println();
         System.out.println();
 
-        org.junit.Assume.assumeThat("java version is " + javaVersion, javaVersion, startsWith("1.9"));
+        org.junit.Assume.assumeThat("java version is " + javaVersion, javaVersion, startsWith("1.8"));
 
         assertNotNull(new Accident());
     }
