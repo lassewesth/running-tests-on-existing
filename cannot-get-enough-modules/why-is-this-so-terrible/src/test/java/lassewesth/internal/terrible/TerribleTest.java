@@ -10,6 +10,12 @@ public class TerribleTest {
     public void shouldYikes() throws Exception {
         String javaVersion = System.getProperty("java.version");
 
+        System.out.println();
+        System.out.println();
+        System.out.println("*** JAVA VERSION *** = " + javaVersion);
+        System.out.println();
+        System.out.println();
+
         org.junit.Assume.assumeThat("java version is " + javaVersion, javaVersion, is("1.8"));
 
         assertNotNull(new Accident());
