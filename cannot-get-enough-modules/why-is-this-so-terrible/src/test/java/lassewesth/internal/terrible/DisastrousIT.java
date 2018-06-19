@@ -8,7 +8,7 @@ import static org.junit.Assert.assertThat;
 public class DisastrousIT {
     @Test
     public void shouldYikesSlowly() throws Exception {
-        // poke it again and again
+        // poke it
         assertThat(new Accident().toString(), startsWith("an"));
     }
 }
