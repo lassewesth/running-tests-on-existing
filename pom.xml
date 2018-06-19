@@ -7,7 +7,7 @@
     <groupId>lassewesth</groupId>
     <artifactId>running-tests-on-existing-artifacts-with-maven</artifactId>
     <packaging>pom</packaging>
-    <version>1.1</version>
+    <version>4.7.2</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
