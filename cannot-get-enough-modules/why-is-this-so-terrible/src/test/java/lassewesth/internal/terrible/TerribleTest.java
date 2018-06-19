@@ -13,7 +13,7 @@ public class TerribleTest {
 
         System.out.println("***");
         System.out.println("***");
-        System.out.println("java version is " + javaVersion);
+        System.out.println("java version is " + fjavaVersion);
         System.out.println("***");
         System.out.println("***");
 
