@@ -11,8 +11,10 @@ public class TerribleTest {
     public void shouldYikes() throws Exception {
         String javaVersion = System.getProperty("java.version");
 
+        assertThat(javaVersion, startsWith("1.10"));
+
         assumeThat("java version is " + javaVersion, javaVersion, startsWith("1.10"));
 
-        assertThat(javaVersion, startsWith("1.10"));
+        assertThat(javaVersion, startsWith("1.11"));
     }
 }
