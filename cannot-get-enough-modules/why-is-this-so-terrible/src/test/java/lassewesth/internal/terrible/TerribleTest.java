@@ -17,7 +17,7 @@ public class TerribleTest {
         System.out.println("***");
         System.out.println("***");
 
-        assumeThat("java version is " + javaVersion, javaVersion, startsWith("1.8"));
+        assumeThat("java version is trickle trickle" + javaVersion, javaVersion, startsWith("1.8"));
 
         assertThat(javaVersion, startsWith("1.8"));
     }
